@@ -1,0 +1,32 @@
+<html>
+    <head>
+	<script src="node_modules/vue/dist/vue.js"></script>
+	// web3是以太坊的js api, demo里用了ethereumjs-testprc, 模拟一个以太坊节点
+	<script src="node_modules/web3/dist/web3.min.js"></script>
+    </head>
+    <body>
+	<div id='app'>
+
+	    <h2>Block Number: {{ blockNumber }}</h2>
+	    <h2>Balance</h2>
+	    <table>
+		<tr v-for="account in accounts"  style="font-family:'courier'">
+		    <td> {{ account.address }} </td>
+		    <td> {{ account.balance }} </td>
+		</tr>
+	    </table>
+	    
+	    <h2>Generate</h2>
+	    <input type="text" v-model="newAmount">
+	    <button @click="generate">Generate</button>
+
+	    <h2>Transfer</h2>
+	    From:  <input type="text" v-model="sender">
+	    To: <input type="text" v-model="receiver">
+	    Amount:  <input type="text" v-model="amount">
+	    <button @click="transfer">Transfer</button>
+
+	</div>
+	<script src="app.js"></script>
+    </body>
+</html>

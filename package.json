@@ -1,0 +1,16 @@
+{
+  "name": "simplecoin",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "vue": "^1.0.26",
+    "web3": "^0.17.0-alpha"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testrpc": "testrpc --debug -l 0xffffffff -s bitmain --account=',50000000000000000000000' --account=',50000000000000000000000' --account=',50000000000000000000000' --account=',50000000000000000000000' --account=',50000000000000000000000' --account=',50000000000000000000000'"
+  },
+  "author": "",
+  "license": "ISC"
+}
