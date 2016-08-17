@@ -1,12 +1,23 @@
-How to run
+install solc
+> sudo add-apt-repository ppa:ethereum/ethereum
+
+> sudo apt-get update
+
+> sudo apt-get install solc
+
+
+npm install
 
 1. `npm install -g ethereumjs-testrpc http-server`
 2. `cd simplecoin`
 3. `npm install`
-4. `npm run testrpc`
-5. `node deploy.js`
-6. `http-server`
-7. checkout http://127.0.0.1:8000
+
+How to run
+
+1. `npm run testrpc`
+2. `node deploy.js`
+3. `http-server`
+4. checkout http://127.0.0.1:8000
 
 Files
 
