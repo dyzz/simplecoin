@@ -8,7 +8,7 @@ install solc
 
 npm install
 
-1. `npm install -g ethereumjs-testrpc http-server`
+1. `npm install -g ethereumjs-testrpc@2.0.7 http-server`
 2. `cd simplecoin`
 3. `npm install`
 
