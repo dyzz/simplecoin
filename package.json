@@ -4,6 +4,7 @@
   "description": "",
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "solc": "^0.3.6",
     "vue": "^1.0.26",
     "web3": "^0.17.0-alpha"
   },
