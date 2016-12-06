@@ -1,7 +1,7 @@
 <html>
     <head>
 	<script src="node_modules/vue/dist/vue.js"></script>
-	// web3是以太坊的js api, demo里用了ethereumjs-testprc, 模拟一个以太坊节点
+	<!-- web3是以太坊的js api, demo里用了ethereumjs-testprc, 模拟一个以太坊节点 -->
 	<script src="node_modules/web3/dist/web3.min.js"></script>
     </head>
     <body>
@@ -27,6 +27,8 @@
 	    <button @click="transfer">Transfer</button>
 
 	</div>
+        <div id='log'>
+        </div>
 	<script src="app.js"></script>
     </body>
 </html>
