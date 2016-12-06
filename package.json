@@ -10,8 +10,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "testrpc": "testrpc --debug -l 0xffffffff -s bitmain --account=',50000000000000000000000' --account=',50000000000000000000000' --account=',50000000000000000000000' --account=',50000000000000000000000' --account=',50000000000000000000000' --account=',50000000000000000000000'"
+    "testrpc": "testrpc --debug -l 0xffffffff -s bitmain"
   },
   "author": "",
   "license": "ISC"
 }
+
