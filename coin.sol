@@ -1,3 +1,5 @@
+pragma solidity ^0.4.4;
+
 contract Coin {
   // 管理员地址
   address admin;
