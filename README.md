@@ -1,9 +1,8 @@
 npm install
 
-1. `npm install`
+1. `cd simplecoin`
 2. `npm install -g ethereumjs-testrpc http-server`
-3. `cd simplecoin`
-4. `npm install`
+3. `npm install`
 
 How to run
 
