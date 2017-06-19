@@ -17,7 +17,7 @@ How to run
 1. `npm run testrpc`
 2. `node deploy.js`
 3. `http-server`
-4. checkout http://127.0.0.1:8000
+4.  http://127.0.0.1:8080
 
 Files
 
